@@ -1,0 +1,146 @@
+ 
+ @media only screen and (max-width: 1100px) {
+    .wrapper { 
+        width:90%; 
+}
+ }
+
+
+
+ @media only screen and (max-width: 1100px) {
+    #social {
+        position:absolute;
+        width:auto;
+        margin-top: 82px;
+        margin-right: 4px;
+    
+}
+ }
+
+
+ /*900px breakpoint*/
+
+ @media only screen and  (max-width: 900px) {
+body {
+    font-size: 85%;
+
+ } 
+ }
+
+
+ @media only screen and  (max-width: 900px) {
+ #logo h1 {
+     height:35px;
+     width:35px;
+ }
+ }
+
+
+ @media only screen and  (max-width: 900px) {
+    #logo h2 {
+        font-size: 2.2em;
+    }
+    }
+
+    @media only screen and  (max-width: 900px) {
+        #social {
+            margin-top: 72px;
+        }
+        } 
+
+/*make sure you grab all 3 column-count attributes*/
+        @media only screen and  (max-width: 900px) {
+            .col-3 p {
+                column-count: 2;
+            }
+            }    
+
+/*750px breakpoint*/
+
+  @media only screen and  (max-width: 750px) {
+            #navbar nav a {
+                font-size: 0.9em;
+            }
+            }    
+
+
+     @media only screen and  (max-width: 750px) {
+            .col-3 p {
+                column-count: 1;
+            }
+            } 
+
+              @media only screen and  (max-width: 750px) {
+                .col-1 .col-2 .col-3  {
+                    width:100%;
+                    margin-left: 0;
+                    float: none;
+                  
+                }
+                } 
+
+      
+
+            @media only screen and  (max-width: 750px) {
+                .border-right {
+                    border:0px;
+                }
+                } 
+
+
+                @media only screen and  (max-width: 750px) {
+                    #details {
+                        height:auto;
+                       
+                    }
+                    } 
+
+
+/*700px breakpoint*/       
+
+@media only screen and  (max-width: 700px) {
+    #navbar nav a{
+        visibility: hidden;
+        height:0;
+        width:0;
+        border-right: none;
+    }
+    }    
+    
+    @media only screen and  (max-width: 700px) {
+        #navbar nav {
+            border-left: none;
+        }
+        }
+        
+
+    @media only screen and  (max-width: 700px) {
+    #navbar nav a.menu-icon {
+        visibility: visible;
+        display: block;     
+    }
+    }
+
+    @media only screen and  (max-width: 700px) {
+        #logo h2 {
+            visibility: hidden;          
+    }
+    }
+
+    @media only screen and  (max-width: 700px) {
+        #logo h1 {     
+            position:absolute;
+            margin-top: 72px;
+            margin-right: 4px;
+            padding: 0px;
+            z-index: 0;
+            
+
+        }
+        }
+
+
+
+
+   
+
